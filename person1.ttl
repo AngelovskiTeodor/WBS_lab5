@@ -1,1 +1,19 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
+<https://raw.githubusercontent.com/AngelovskiTeodor/WBS_lab5/main/person1.ttl> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://raw.githubusercontent.com/AngelovskiTeodor/WBS_lab5/main/person1.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/AngelovskiTeodor/WBS_lab5/main/person1.ttl#me> .
+
+<https://raw.githubusercontent.com/AngelovskiTeodor/WBS_lab5/main/person1.ttl#me> a foaf:Person ;
+    foaf:depiction <https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1200px-Andromeda_Galaxy_%28with_h-alpha%29.jpg> ;
+    foaf:family_name "Dimitrievski" ;
+    foaf:givenname "Stefan" ;
+    foaf:homepage <https://www.facebook.com/stefan.d/> ;
+    foaf:mbox_sha1sum "1b81f18dba3ae2157c157edcb423d56ad8ec83e6" ;
+    foaf:name "Stefan Dimitrievski" ;
+    foaf:phone <tel:+389-78-504-418> ;
+    foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
+    foaf:title "Mr" .
