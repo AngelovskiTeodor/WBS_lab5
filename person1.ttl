@@ -12,7 +12,7 @@
     foaf:family_name "Dimitrievski" ;
     foaf:givenname "Stefan" ;
     foaf:homepage <https://www.facebook.com/stefan.d/> ;
-    foaf:mbox_sha1sum "1b81f18dba3ae2157c157edcb423d56ad8ec83e6" ;
+    foaf:mbox_sha1sum "453eb03bc1992b4f95f12810a251d9074dfc570e" ;
     foaf:name "Stefan Dimitrievski" ;
     foaf:phone <tel:+389-78-504-418> ;
     foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
