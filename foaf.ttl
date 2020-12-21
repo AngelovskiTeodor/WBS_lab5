@@ -1,1 +1,24 @@
-
+<rdf:RDF
+	  xml:base="https://raw.githubusercontent.com/AngelovskiTeodor/WBS_lab5/76f4c050c16247a7303f7bb5e856ff4781a96d53/foaf.ttl#"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Teodor Angelovski</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Teodor</foaf:givenname>
+<foaf:family_name>Angelovski</foaf:family_name>
+<foaf:nick>Teo</foaf:nick>
+<foaf:mbox_sha1sum>2543c7a2f05ff40ba8e409d03c1a3ef92e860ad5</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="https://www.facebook.com/angelovski.teodor/"/>
+<foaf:depiction rdf:resource="https://scontent.fskp3-1.fna.fbcdn.net/v/t1.0-1/p200x200/131389512_3862274080459141_2304191777001817850_o.jpg?_nc_cat=103&ccb=2&_nc_sid=7206a8&_nc_ohc=v1sLxMdmlNAAX_YLw1x&_nc_ht=scontent.fskp3-1.fna&tp=6&oh=8f2f81c3cc3693975b1f1d09b2065146&oe=60049650"/>
+<foaf:phone rdf:resource="tel:+389-72-449-217"/>
+<foaf:schoolHomepage rdf:resource="https://www.finki.ukim.mk/"/></foaf:Person>
+</rdf:RDF>
