@@ -1,5 +1,6 @@
 @prefix admin: <http://webns.net/mvcb/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <https://raw.githubusercontent.com/AngelovskiTeodor/WBS_lab5/main/foaf.ttl> a foaf:PersonalProfileDocument ;
     admin:errorReportsTo <mailto:leigh@ldodds.com> ;
@@ -11,6 +12,10 @@
     foaf:family_name "Angelovski" ;
     foaf:givenname "Teodor" ;
     foaf:homepage <https://www.facebook.com/angelovski.teodor/> ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/AngelovskiTeodor/WBS_lab5/main/person1.ttl> ;
+            foaf:mbox_sha1sum "453eb03bc1992b4f95f12810a251d9074dfc570e" ;
+            foaf:name "Stefan" ] ;
     foaf:mbox_sha1sum "2543c7a2f05ff40ba8e409d03c1a3ef92e860ad5" ;
     foaf:name "Teodor Angelovski" ;
     foaf:nick "Teo" ;
